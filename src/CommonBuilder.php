@@ -28,7 +28,8 @@ class CommonBuilder extends AbstractBuilder
             ->addRule('keywords', [$this, 'ruleCommon'])
             ->addRule('geo.position', [$this, 'ruleCommon'])
             ->addRule('geo.placename', [$this, 'ruleCommon'])
-            ->addRule('geo.region', [$this, 'ruleCommon']);
+            ->addRule('geo.region', [$this, 'ruleCommon'])
+            ->addRule('ICBM', [$this, 'ruleCommon']);
     }
 
     /**
