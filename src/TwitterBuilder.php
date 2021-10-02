@@ -18,6 +18,7 @@ class TwitterBuilder extends AbstractBuilder
             ->addRule('twitter:description', [$this, 'ruleCommon'])
             ->addAlias('description', 'twitter:description')
             ->addRule('twitter:card', [$this, 'ruleCommon'])
+            ->addRule('twitter:domain', [$this, 'ruleCommon'])
             ->addRule('twitter:site', [$this, 'ruleCommon'])
             ->addRule('twitter:site:id', [$this, 'ruleCommon'])
             ->addRule('twitter:creator', [$this, 'ruleCommon'])
