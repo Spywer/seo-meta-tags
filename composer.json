@@ -1,11 +1,12 @@
 {
     "name": "spywer/seo-meta-tags",
     "description": "Social Meta Tags: Open Graph Tags, Facebook, Twitter, LinkedIn, Google+, Pinterest and etc",
+    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Spywer",
+            "name": "Spywer"
         }
     ],
     "keywords": ["seo", "social", "meta", "og", "open graph", "twitter card"],
