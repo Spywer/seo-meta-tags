@@ -24,7 +24,7 @@ class BuilderDelegate implements BuilderInterface
     public function add($name, $value)
     {
         foreach ($this->builders as $builder) {
-            $builder->add($name, $value);
+            $builder->add($name, htmlentities($value, ENT_COMPAT));
         }
 
         return $this;
